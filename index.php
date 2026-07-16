@@ -39,7 +39,7 @@
         <section class="hero" id="inicio">
             <div class="container hero-grid">
                 <div class="hero-copy">
-                    <p class="eyebrow"><span></span> Tecnología para tu día a día</p>
+                    <p class="eyebrow"><span></span> Tecnología para Luber Alexis</p>
                     <h1>Accesorios que mejoran tu <em>experiencia digital.</em></h1>
                     <p class="hero-text">Explora una selección de accesorios tecnológicos con una compra rápida y segura mediante Payphone.</p>
                     <div class="hero-actions">
