@@ -37,10 +37,12 @@ pipeline {
 
         stage('Test (Pruebas)') {
             steps {
-                // Si el código PHP tiene algún error, Jenkins abortará el despliegue aquí mismo.
-                // Verifica que los archivos PHP principales no tengan errores de sintaxis
+                // Pruebas de Sintaxis PHP
                 sh 'docker run --rm avilatech-app php -l index.php'
                 sh 'docker run --rm avilatech-app php -l respuesta.php'
+                
+                // Pruebas Funcionales de AvilaTech
+                sh 'docker run --rm avilatech-app php tests/payphone_test.php'
             }
         }
 
