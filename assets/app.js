@@ -308,7 +308,8 @@ async function startCheckout() {
       lang: 'es',
       defaultMethod: 'card',
       timeZone: -5,
-      optionalParameter: 'Proyecto académico AvilaTech'
+      optionalParameter: 'Proyecto académico AvilaTech',
+      response: 'http://localhost:8081/respuesta.php'
     }).render('pp-button');
 
     paymentMessage.className = 'notice success';
